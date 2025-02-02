@@ -1,7 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 * {
     box-sizing: border-box;
 }
 
-h3 {
-    font-family: 'Shrikhand';
+#logo_foot {
+    font-family: 'Shrikhand'
+}
+
+.container {
+    padding: 0 40%;
+    margin: 0 auto;
 }
