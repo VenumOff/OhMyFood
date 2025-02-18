@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&family=Shrikhand&display=swap"
+        rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OhMyFood - réservez dès maintenant</title>
+</head>
+
+<body>
+    <header>
+        <div class="flex justify-center p-5 border-b border-b-gray-300"
+            style="box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5)">
+            <img src="images/logo/ohmyfood@2x.svg" alt="Site " loading="lazy" class="w-40" id="logo_header" />
+        </div>
+        <div class="bg-gray-100 flex justify-center items-center p-2 gap-3">
+            <i class="fa-solid fa-location-dot"></i>
+            <b>Paris, Belleville</b>
+        </div>
+    </header>
+
+    <main>
+        <section id="reserv" class="bg-gray-50 px-24">
+            <h1 class="font-bold text-2xl text-center py-5">
+                Réservez le menu qui
+                <span class="block"> vous convient </span>
+            </h1>
+            <p class="text-center pb-5">
+                Découvrez nos restaurants d'exception,
+                <span> séléctionnés par nos soins </span>
+            </p>
+            <div class="flex justify-center">
+                <button
+                    class="bg-gradient-to-b from-[#FF79DA] to-[#9356DC] text-white font-semibold mb-5 p-2 rounded-3xl">
+                    Explorer nos restaurants
+                </button>
+            </div>
+        </section>
+
+        <section id="fonctionnement" class="p-5 w-full md:container md:mx-auto">
+            <h2 class="font-bold mb-5 text-2xl">Fonctionnement</h2>
+            <div class="md:flex">
+                <div class="relative p-2 mb-3 md:w-[31%]">
+                    <span
+                        class="bg-[#9356DC] flex justify-center items-center h-5 w-5 rounded-full absolute left-0 top-7 text-white">1</span>
+                    <div class="bg-gray-100 pl-6 rounded-2xl p-4 flex gap-4 items-center">
+                        <i class="text-gray-500 fa-solid fa-mobile-screen-button"></i>
+                        <span>Choisissez un restaurant</span>
+                    </div>
+                </div>
+                <div class="relative p-2 mb-3 md:w-[31%]">
+                    <span
+                        class="bg-[#9356DC] flex justify-center items-center h-5 w-5 rounded-full absolute left-0 top-7 text-white">2</span>
+                    <div class="bg-gray-100 pl-6 rounded-2xl p-4 flex gap-4 items-center">
+                        <i class="fa-solid fa-list text-gray-600"></i>
+                        <span>Composez votre menu</span>
+                    </div>
+                </div>
+                <div class="relative p-2 mb-3 md:w-[31%]">
+                    <span
+                        class="bg-[#9356DC] flex justify-center items-center h-5 w-5 rounded-full absolute left-0 top-7 text-white">3</span>
+                    <div class="bg-gray-100 pl-6 rounded-2xl p-4 flex gap-4 items-center">
+                        <i class="fa-solid fa-shop text-gray-600"></i>
+                        <span>Dégustez au restaurant</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="bg-gray-100">
+            <section id="restaurant"
+                class="p-5 text-2xl flex flex-col gap-7 w-full md:container md:mx-auto md:grid md:grid-cols-2 md:grid-rows-[auto,1fr,1fr] md-gap-5">
+                <h2 class="py-5 font-bold">Restaurants</h2>
+                <a href="" class="relative h-64 overflow-hidden rounded-2xl md:row-start-2 md:col-start-1">
+                    <img src="images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg" alt=""
+                        class="w-full h-full object-cover object-center rounded-2xl" />
+                    <div
+                        class="absolute right-5 top-5 bg-[#99E2D0] text-green-800 font-semibold p-2 text-base rounded-2xl">
+                        Nouveau
+                    </div>
+                    <div class="absolute bottom-0 left-0 w-full bg-white p-3 flex justify-between items-center">
+                        <div class="flex flex-col">
+                            <h3 class="font-bold text-lg">
+                                La palette du goût
+                            </h3>
+                            <span class="text-base">Ménilmontant</span>
+                        </div>
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                </a>
+                <a href="" class="relative h-64 overflow-hidden rounded-2xl md:row-start-2 md:col-start-2">
+                    <img src="images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg" alt=""
+                        class="w-full h-full object-cover object-center rounded-2xl" />
+                    <div
+                        class="absolute right-5 top-5 bg-[#99E2D0] text-green-800 font-semibold p-2 text-base rounded-2xl">
+                        Nouveau
+                    </div>
+                    <div class="absolute bottom-0 left-0 w-full bg-white p-3 flex justify-between items-center">
+                        <div class="flex flex-col">
+                            <h3 class="font-bold text-lg">
+                                La note enchantée
+                            </h3>
+                            <span class="text-base">Charonne</span>
+                        </div>
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                </a>
+                <a href="" class="relative h-64 overflow-hidden rounded-2xl md:row-start-3 md:col-start-1">
+                    <img src="images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg" alt=""
+                        class="w-full h-full object-cover object-center rounded-2xl" />
+                    <div
+                        class="absolute right-5 top-5 bg-[#99E2D0] text-green-800 font-semibold p-2 text-base rounded-2xl">
+                        Nouveau
+                    </div>
+                    <div class="absolute bottom-0 left-0 w-full bg-white p-3 flex justify-between items-center">
+                        <div class="flex flex-col">
+                            <h3 class="font-bold text-lg">
+                                A la française
+                            </h3>
+                            <span class="text-base">Cité Rouge</span>
+                        </div>
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                </a>
+                <a href="" class="relative h-64 overflow-hidden rounded-2xl md:row-start-3 md:col-start-2">
+                    <img src="images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg" alt=""
+                        class="w-full h-full object-cover object-center rounded-2xl" />
+                    <div
+                        class="absolute right-5 top-5 bg-[#99E2D0] text-green-800 font-semibold p-2 text-base rounded-2xl">
+                        Nouveau
+                    </div>
+                    <div class="absolute bottom-0 left-0 w-full bg-white p-3 flex justify-between items-center">
+                        <div class="flex flex-col">
+                            <h3 class="font-bold text-lg">
+                                Le délice des sens
+                            </h3>
+                            <span class="text-base">Ménilmontant</span>
+                        </div>
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                </a>
+            </section>
+        </div>
+    </main>
+
+    <div class="bg-[#393939]">
+        <footer class="p-5 flex flex-col p-5 w-full md:container md:mx-auto">
+            <h3 id="logo_foot" class="text-white mb-2">ohmyfood</h3>
+            <div class="flex flex-col">
+                <div>
+                    <i class="fa-solid fa-utensils text-white mr-4"></i>
+                    <a href="" class="text-white font-semibold">Proposer un restaurant</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-handshake-angle text-white mr-2"></i>
+                    <a href="" class="text-white font-semibold">Devenir partenaire</a>
+                </div>
+                <a href="" class="text-white font-semibold">Mentions légales</a>
+                <a href="" class="text-white font-semibold">Contact</a>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
